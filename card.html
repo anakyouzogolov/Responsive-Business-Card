@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: #17c0eb;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .card .header {
+        background-color: #1e272e;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card .header h2 {
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    
+    .card .body ul {
+        list-style: none;
+        padding: 6px;
+        width: 100%;
+    }
+    
+    .card .body ul li::before {
+        font-family: 'Font Awesome 5 Free';
+        content: "\2713";
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .card .body li:nth-child(5)::before {
+        font-family: 'Font Awesome 5 Free';
+        content: "\2715";
+        color: red;
+    }
+    
+    .card .body ul li {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    
+    .card .footer {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .card .footer a:link,
+    a:visited {
+        background-color: #1e272e;
+        color: #fff;
+        padding: 14px 40px;
+        text-decoration: none;
+        font-size: 22px;
+        text-transform: capitalize;
+        transition: all .24s ease-in-out;
+    }
+    
+    .card .footer a:hover {
+        background-color: #fff;
+        color: #1e272e;
+        box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card .footer:active,
+    a:active {
+        transform: translateY(2px);
+    }
+    /* mycard style */
+</style>
+
+<body>
+
+    <!-- end card -->
+
+    <!-- start card -->
+    <div class="card">
+
+        <div class="header">
+            <h2>
+                MOST POPULAR
+            </h2>
+        </div>
+
+        <div class="body">
+
+            <ul>
+                <li>100 Websites</li>
+                <li>Free Email </li>
+                <li>Unlimited Bandwidth </li>
+                <li>Managed WordPress h</li>
+                <li>GIT Access</li>
+                <li>SSH Access</li>
+            </ul>
+
+        </div>
+
+        <div class="footer">
+            <a href="https://github.com/" target="_blank">select</a>
+        </div>
+
+    </div>
+
+
+    <!-- end card -->
+
+
+
+
+    <script src="https://kit.fontawesome.com/8d04093814.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
